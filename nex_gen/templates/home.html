@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexgen Institute</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}" type="text/css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Nexgen</div>
+        <nav>
+            <ul>
+                <li><a href="about">About Us</a></li>
+                <li><a href="courses">Courses</a></li>
+                <li><a href="contacts">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="{% static 'images/1.jpg' %}" alt="Background Image" class="hero-bg">
+        <div class="hero-content">
+            <h1>The Best Learning Platform</h1>
+            <p>Transform your future with innovative courses, experienced instructors, and a thriving learning community.</p>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat-boxes">
+            <div class="stat-box">
+                <img src="{% static 'images/5.png' %}" alt="Classrooms Icon">
+                <h3>500+</h3>
+                <p>Classrooms</p>
+            </div>
+            <div class="stat-box">
+                <img src="{% static 'images/4.png' %}" alt="Students Icon">
+                <h3>3000+</h3>
+                <p>Students</p>
+            </div>
+            <div class="stat-box">
+                <img src="{% static 'images/3.png' %}" alt="Courses Icon">
+                <h3>30+</h3>
+                <p>Courses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <h2>What Makes Us Unique?</h2>
+        <div class="highlights-content">
+            <div class="highlight-item">
+                <h3>Experienced Instructors</h3>
+                <p>Our team includes industry professionals and academic experts.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Modern Infrastructure</h3>
+                <p>State-of-the-art facilities for immersive learning experiences.</p>
+            </div>
+            <div class="highlight-item">
+                <h3>Flexible Learning</h3>
+                <p>In-person, online, and hybrid options to fit your schedule.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Nexgen</h3>
+            </div>
+            <div class="footer-links">
+                <div class="footer-list">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI & ML</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><a href="#">Email Us</a></li>
+                        <li><a href="#">Visit Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nexgen Institute. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
